@@ -1,0 +1,80 @@
+[1.515s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/home/qawiy/Documents/robocop_ws/src']
+[1.515s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='list', build_base='build', ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['/home/qawiy/Documents/robocop_ws/src'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], topological_order=False, names_only=False, paths_only=True, topological_graph=False, topological_graph_dot=False, topological_graph_density=False, topological_graph_legend=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f87e1d20fd0>, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x7f87e1dad150>, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x7f87e1dad150>>)
+[1.578s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.579s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.579s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.579s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.579s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.579s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/qawiy/Documents/robocop_ws/src'
+[1.579s] Level 1:colcon.colcon_core.package_identification:_identify(/home/qawiy/Documents/robocop_ws/src) by extensions ['ignore', 'ignore_ament_install']
+[1.579s] Level 1:colcon.colcon_core.package_identification:_identify(/home/qawiy/Documents/robocop_ws/src) by extension 'ignore'
+[1.579s] Level 1:colcon.colcon_core.package_identification:_identify(/home/qawiy/Documents/robocop_ws/src) by extension 'ignore_ament_install'
+[1.579s] Level 1:colcon.colcon_core.package_identification:_identify(/home/qawiy/Documents/robocop_ws/src) by extensions ['colcon_pkg']
+[1.579s] Level 1:colcon.colcon_core.package_identification:_identify(/home/qawiy/Documents/robocop_ws/src) by extension 'colcon_pkg'
+[1.579s] Level 1:colcon.colcon_core.package_identification:_identify(/home/qawiy/Documents/robocop_ws/src) by extensions ['colcon_meta']
+[1.579s] Level 1:colcon.colcon_core.package_identification:_identify(/home/qawiy/Documents/robocop_ws/src) by extension 'colcon_meta'
+[1.580s] Level 1:colcon.colcon_core.package_identification:_identify(/home/qawiy/Documents/robocop_ws/src) by extensions ['ros']
+[1.580s] Level 1:colcon.colcon_core.package_identification:_identify(/home/qawiy/Documents/robocop_ws/src) by extension 'ros'
+[1.593s] Level 1:colcon.colcon_core.package_identification:_identify(/home/qawiy/Documents/robocop_ws/src) by extensions ['cmake', 'python']
+[1.593s] Level 1:colcon.colcon_core.package_identification:_identify(/home/qawiy/Documents/robocop_ws/src) by extension 'cmake'
+[1.593s] Level 1:colcon.colcon_core.package_identification:_identify(/home/qawiy/Documents/robocop_ws/src) by extension 'python'
+[1.593s] Level 1:colcon.colcon_core.package_identification:_identify(/home/qawiy/Documents/robocop_ws/src) by extensions ['python_setup_py']
+[1.593s] Level 1:colcon.colcon_core.package_identification:_identify(/home/qawiy/Documents/robocop_ws/src) by extension 'python_setup_py'
+[1.594s] Level 1:colcon.colcon_core.package_identification:_identify(/home/qawiy/Documents/robocop_ws/src/log) by extensions ['ignore', 'ignore_ament_install']
+[1.594s] Level 1:colcon.colcon_core.package_identification:_identify(/home/qawiy/Documents/robocop_ws/src/log) by extension 'ignore'
+[1.594s] Level 1:colcon.colcon_core.package_identification:_identify(/home/qawiy/Documents/robocop_ws/src/log) ignored
+[1.594s] Level 1:colcon.colcon_core.package_identification:_identify(/home/qawiy/Documents/robocop_ws/src/tb3_autonomy) by extensions ['ignore', 'ignore_ament_install']
+[1.594s] Level 1:colcon.colcon_core.package_identification:_identify(/home/qawiy/Documents/robocop_ws/src/tb3_autonomy) by extension 'ignore'
+[1.594s] Level 1:colcon.colcon_core.package_identification:_identify(/home/qawiy/Documents/robocop_ws/src/tb3_autonomy) by extension 'ignore_ament_install'
+[1.594s] Level 1:colcon.colcon_core.package_identification:_identify(/home/qawiy/Documents/robocop_ws/src/tb3_autonomy) by extensions ['colcon_pkg']
+[1.594s] Level 1:colcon.colcon_core.package_identification:_identify(/home/qawiy/Documents/robocop_ws/src/tb3_autonomy) by extension 'colcon_pkg'
+[1.594s] Level 1:colcon.colcon_core.package_identification:_identify(/home/qawiy/Documents/robocop_ws/src/tb3_autonomy) by extensions ['colcon_meta']
+[1.594s] Level 1:colcon.colcon_core.package_identification:_identify(/home/qawiy/Documents/robocop_ws/src/tb3_autonomy) by extension 'colcon_meta'
+[1.595s] Level 1:colcon.colcon_core.package_identification:_identify(/home/qawiy/Documents/robocop_ws/src/tb3_autonomy) by extensions ['ros']
+[1.595s] Level 1:colcon.colcon_core.package_identification:_identify(/home/qawiy/Documents/robocop_ws/src/tb3_autonomy) by extension 'ros'
+[1.598s] DEBUG:colcon.colcon_core.package_identification:Package '/home/qawiy/Documents/robocop_ws/src/tb3_autonomy' with type 'ros.ament_cmake' and name 'tb3_autonomy'
+[1.598s] Level 1:colcon.colcon_core.package_identification:_identify(/home/qawiy/Documents/robocop_ws/src/turtlebot3_simulations) by extensions ['ignore', 'ignore_ament_install']
+[1.598s] Level 1:colcon.colcon_core.package_identification:_identify(/home/qawiy/Documents/robocop_ws/src/turtlebot3_simulations) by extension 'ignore'
+[1.598s] Level 1:colcon.colcon_core.package_identification:_identify(/home/qawiy/Documents/robocop_ws/src/turtlebot3_simulations) by extension 'ignore_ament_install'
+[1.598s] Level 1:colcon.colcon_core.package_identification:_identify(/home/qawiy/Documents/robocop_ws/src/turtlebot3_simulations) by extensions ['colcon_pkg']
+[1.598s] Level 1:colcon.colcon_core.package_identification:_identify(/home/qawiy/Documents/robocop_ws/src/turtlebot3_simulations) by extension 'colcon_pkg'
+[1.598s] Level 1:colcon.colcon_core.package_identification:_identify(/home/qawiy/Documents/robocop_ws/src/turtlebot3_simulations) by extensions ['colcon_meta']
+[1.598s] Level 1:colcon.colcon_core.package_identification:_identify(/home/qawiy/Documents/robocop_ws/src/turtlebot3_simulations) by extension 'colcon_meta'
+[1.598s] Level 1:colcon.colcon_core.package_identification:_identify(/home/qawiy/Documents/robocop_ws/src/turtlebot3_simulations) by extensions ['ros']
+[1.598s] Level 1:colcon.colcon_core.package_identification:_identify(/home/qawiy/Documents/robocop_ws/src/turtlebot3_simulations) by extension 'ros'
+[1.598s] Level 1:colcon.colcon_core.package_identification:_identify(/home/qawiy/Documents/robocop_ws/src/turtlebot3_simulations) by extensions ['cmake', 'python']
+[1.598s] Level 1:colcon.colcon_core.package_identification:_identify(/home/qawiy/Documents/robocop_ws/src/turtlebot3_simulations) by extension 'cmake'
+[1.599s] Level 1:colcon.colcon_core.package_identification:_identify(/home/qawiy/Documents/robocop_ws/src/turtlebot3_simulations) by extension 'python'
+[1.599s] Level 1:colcon.colcon_core.package_identification:_identify(/home/qawiy/Documents/robocop_ws/src/turtlebot3_simulations) by extensions ['python_setup_py']
+[1.599s] Level 1:colcon.colcon_core.package_identification:_identify(/home/qawiy/Documents/robocop_ws/src/turtlebot3_simulations) by extension 'python_setup_py'
+[1.599s] Level 1:colcon.colcon_core.package_identification:_identify(/home/qawiy/Documents/robocop_ws/src/turtlebot3_simulations/turtlebot3_fake_node) by extensions ['ignore', 'ignore_ament_install']
+[1.599s] Level 1:colcon.colcon_core.package_identification:_identify(/home/qawiy/Documents/robocop_ws/src/turtlebot3_simulations/turtlebot3_fake_node) by extension 'ignore'
+[1.599s] Level 1:colcon.colcon_core.package_identification:_identify(/home/qawiy/Documents/robocop_ws/src/turtlebot3_simulations/turtlebot3_fake_node) by extension 'ignore_ament_install'
+[1.599s] Level 1:colcon.colcon_core.package_identification:_identify(/home/qawiy/Documents/robocop_ws/src/turtlebot3_simulations/turtlebot3_fake_node) by extensions ['colcon_pkg']
+[1.599s] Level 1:colcon.colcon_core.package_identification:_identify(/home/qawiy/Documents/robocop_ws/src/turtlebot3_simulations/turtlebot3_fake_node) by extension 'colcon_pkg'
+[1.599s] Level 1:colcon.colcon_core.package_identification:_identify(/home/qawiy/Documents/robocop_ws/src/turtlebot3_simulations/turtlebot3_fake_node) by extensions ['colcon_meta']
+[1.599s] Level 1:colcon.colcon_core.package_identification:_identify(/home/qawiy/Documents/robocop_ws/src/turtlebot3_simulations/turtlebot3_fake_node) by extension 'colcon_meta'
+[1.599s] Level 1:colcon.colcon_core.package_identification:_identify(/home/qawiy/Documents/robocop_ws/src/turtlebot3_simulations/turtlebot3_fake_node) by extensions ['ros']
+[1.599s] Level 1:colcon.colcon_core.package_identification:_identify(/home/qawiy/Documents/robocop_ws/src/turtlebot3_simulations/turtlebot3_fake_node) by extension 'ros'
+[1.601s] DEBUG:colcon.colcon_core.package_identification:Package '/home/qawiy/Documents/robocop_ws/src/turtlebot3_simulations/turtlebot3_fake_node' with type 'ros.ament_cmake' and name 'turtlebot3_fake_node'
+[1.601s] Level 1:colcon.colcon_core.package_identification:_identify(/home/qawiy/Documents/robocop_ws/src/turtlebot3_simulations/turtlebot3_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[1.601s] Level 1:colcon.colcon_core.package_identification:_identify(/home/qawiy/Documents/robocop_ws/src/turtlebot3_simulations/turtlebot3_gazebo) by extension 'ignore'
+[1.601s] Level 1:colcon.colcon_core.package_identification:_identify(/home/qawiy/Documents/robocop_ws/src/turtlebot3_simulations/turtlebot3_gazebo) by extension 'ignore_ament_install'
+[1.601s] Level 1:colcon.colcon_core.package_identification:_identify(/home/qawiy/Documents/robocop_ws/src/turtlebot3_simulations/turtlebot3_gazebo) by extensions ['colcon_pkg']
+[1.601s] Level 1:colcon.colcon_core.package_identification:_identify(/home/qawiy/Documents/robocop_ws/src/turtlebot3_simulations/turtlebot3_gazebo) by extension 'colcon_pkg'
+[1.601s] Level 1:colcon.colcon_core.package_identification:_identify(/home/qawiy/Documents/robocop_ws/src/turtlebot3_simulations/turtlebot3_gazebo) by extensions ['colcon_meta']
+[1.601s] Level 1:colcon.colcon_core.package_identification:_identify(/home/qawiy/Documents/robocop_ws/src/turtlebot3_simulations/turtlebot3_gazebo) by extension 'colcon_meta'
+[1.601s] Level 1:colcon.colcon_core.package_identification:_identify(/home/qawiy/Documents/robocop_ws/src/turtlebot3_simulations/turtlebot3_gazebo) by extensions ['ros']
+[1.602s] Level 1:colcon.colcon_core.package_identification:_identify(/home/qawiy/Documents/robocop_ws/src/turtlebot3_simulations/turtlebot3_gazebo) by extension 'ros'
+[1.603s] DEBUG:colcon.colcon_core.package_identification:Package '/home/qawiy/Documents/robocop_ws/src/turtlebot3_simulations/turtlebot3_gazebo' with type 'ros.ament_cmake' and name 'turtlebot3_gazebo'
+[1.603s] Level 1:colcon.colcon_core.package_identification:_identify(/home/qawiy/Documents/robocop_ws/src/turtlebot3_simulations/turtlebot3_simulations) by extensions ['ignore', 'ignore_ament_install']
+[1.603s] Level 1:colcon.colcon_core.package_identification:_identify(/home/qawiy/Documents/robocop_ws/src/turtlebot3_simulations/turtlebot3_simulations) by extension 'ignore'
+[1.603s] Level 1:colcon.colcon_core.package_identification:_identify(/home/qawiy/Documents/robocop_ws/src/turtlebot3_simulations/turtlebot3_simulations) by extension 'ignore_ament_install'
+[1.603s] Level 1:colcon.colcon_core.package_identification:_identify(/home/qawiy/Documents/robocop_ws/src/turtlebot3_simulations/turtlebot3_simulations) by extensions ['colcon_pkg']
+[1.603s] Level 1:colcon.colcon_core.package_identification:_identify(/home/qawiy/Documents/robocop_ws/src/turtlebot3_simulations/turtlebot3_simulations) by extension 'colcon_pkg'
+[1.603s] Level 1:colcon.colcon_core.package_identification:_identify(/home/qawiy/Documents/robocop_ws/src/turtlebot3_simulations/turtlebot3_simulations) by extensions ['colcon_meta']
+[1.603s] Level 1:colcon.colcon_core.package_identification:_identify(/home/qawiy/Documents/robocop_ws/src/turtlebot3_simulations/turtlebot3_simulations) by extension 'colcon_meta'
+[1.604s] Level 1:colcon.colcon_core.package_identification:_identify(/home/qawiy/Documents/robocop_ws/src/turtlebot3_simulations/turtlebot3_simulations) by extensions ['ros']
+[1.604s] Level 1:colcon.colcon_core.package_identification:_identify(/home/qawiy/Documents/robocop_ws/src/turtlebot3_simulations/turtlebot3_simulations) by extension 'ros'
+[1.604s] DEBUG:colcon.colcon_core.package_identification:Package '/home/qawiy/Documents/robocop_ws/src/turtlebot3_simulations/turtlebot3_simulations' with type 'ros.ament_cmake' and name 'turtlebot3_simulations'
+[1.604s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
