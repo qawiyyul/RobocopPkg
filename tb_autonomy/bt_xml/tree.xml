@@ -2,7 +2,6 @@
 <root BTCPP_format="4"
       main_tree_to_execute="MainTree">
   <BehaviorTree ID="MainTree">
-    <ReactiveSequence>
       <Sequence name="sequence">
         <GoToPose name="go_to_location1"
                   loc="location1"/>
@@ -13,8 +12,6 @@
         <GoToPose name="go_to_location4"
                   loc="location4"/>
       </Sequence>
-      <ScriptCondition code="1=1"/>
-    </ReactiveSequence>
   </BehaviorTree>
 
   <!-- Description of Node Models (used by Groot) -->
