@@ -20,7 +20,8 @@ BT::NodeStatus GoToPose::onStart()
   BT::Expected<std::string> loc = getInput<std::string>("loc");
   const std::string location_file = node_ptr_->get_parameter("location_file").as_string();
 
-  YAML::Node locations = YAML::LoadFile(location_file);
+  //YAML::Node locations = YAML::LoadFile(location_file);
+  YAML::Node locations = YAML::LoadFile("/home/arms/robocop_ws/src/RobocopPkg/tb_autonomy/include/locations.yaml");
 
   std::vector<float> pose = locations[loc.value()].as<std::vector<float>>();
 
@@ -70,7 +71,7 @@ void GoToPose::nav_to_pose_callback(const GoalHandleNav::WrappedResult &result)
   }
 }
 
-BT::NodeStatus HumanDetection()
+/*BT::NodeStatus HumanDetection()
 {
   bool resultReceived = 1;
   bool no_humans=1;
@@ -95,4 +96,4 @@ BT::NodeStatus HumanDetection()
   }
 
 
-}
+}*/
